@@ -2,7 +2,7 @@ emmi {
   display: block;
   position: relative;
   z-index: 1;
-  width: 320px;
+  width: 145px;
   height: 100px;
 }
 emmi div {
@@ -51,14 +51,14 @@ emmi:before, emmi:after {
 }
 #ejc2:after {
 z-index: 2;
-    border-right: 80px solid #937272;
-    border-bottom: 80px solid transparent;
-    border-top: 80px solid transparent;
-    border-left: 80px solid transparent;
-    transform: rotate(135deg);
+    border-right: 20px solid #937272;
+    border-bottom: 20px solid transparent;
+    border-top: 20px solid #937272;
+    border-left: 20px solid #937272;
+    transform: rotate(76deg);
     opacity: 0.1;
-    top: -130px;
-    right: -130px;
+    top: 0px;
+    right: -110px;
     width: 100px;
     height: 100px;
 }
