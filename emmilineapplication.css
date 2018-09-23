@@ -1,0 +1,157 @@
+emmi {
+  display: block;
+  position: relative;
+  z-index: 1;
+  width: 320px;
+  height: 100px;
+}
+emmi div {
+  position: absolute;
+  z-index: 3;
+  font: 40px playfair display;
+  color: #937272;
+  transform-origin: top left;
+  transform: rotate(-90deg);
+  bottom: -80px;
+  left: 0;
+}
+emmi:before, emmi:after {
+  display: block;
+  content: '';
+  position: absolute;
+  border-radius: 50%;
+  background-size: cover;
+}
+#ejc1:before {
+  z-index: 1;
+  background-image: url(https://cdnw.nickpic.host/x6SAMq.png);
+  width: 100px;
+  height: 100px;
+}
+#ejc1:after {
+  z-index: 2;
+  background: #937272;
+  opacity: 0.5;
+  top: 15px;
+  left: 70px;
+  width: 50px;
+  height: 50px;
+}
+#ejc1 div {
+  bottom: -80px;
+  left: 0;
+}
+
+#ejc2:before {
+  z-index: 1;
+  background-image: url(https://cdnw.nickpic.host/x6cgvA.png);
+  width: 170px;
+  height: 170px;
+  left: 20px;
+}
+#ejc2:after {
+z-index: 2;
+    border-right: 80px solid #937272;
+    border-bottom: 80px solid transparent;
+    border-top: 80px solid transparent;
+    border-left: 80px solid transparent;
+    transform: rotate(135deg);
+    opacity: 0.1;
+    top: -130px;
+    right: -130px;
+    width: 100px;
+    height: 100px;
+}
+#ejc2 div {
+  transform: rotate(0deg);
+  bottom: 0;
+  left: 130px;
+}
+
+#ejc3:before {
+  z-index: 1;
+  background: #937272;
+  opacity: 0.2;
+  width: 200px;
+  height: 200px;
+  left: 80px;
+}
+#ejc3:after {
+  z-index: 2;
+  background-image: url(https://cdnw.nickpic.host/x6cGJq.png);
+  top: 0px;
+  left: 90px;
+  width: 70px;
+  height: 70px;
+}
+#ejc3 div {
+  transform: rotate(0deg);
+  bottom: 0;
+  left: 0;
+}
+#ejc3 div:before {
+  display: block;
+  content: '';
+  position: absolute;
+  border: 1px solid rgba(179, 179, 179, 0.3);
+    border-radius: 50%;
+    top: -59px;
+    left: 84px;
+    width: 80px;
+    height: 80px;
+}
+
+#ejc4:before {
+    z-index: 1;
+    border-right: 1px solid rgba(179, 179, 179, 0.3);
+    border-bottom: 1px solid rgba(179, 179, 179, 0.3);
+    border-top: 1px solid transparent;
+    border-left: 1px solid transparent;
+    transform: rotate(-45deg);
+    width: 120px;
+    height: 120px;
+    left: -51px;
+    top: 38px;
+}
+#ejc4:after {
+  z-index: 2;
+    background-image: url(https://cdnw.nickpic.host/x6cnv2.png);
+    top: 20px;
+    left: 42px;
+    width: 90px;
+    height: 90px;
+}
+#ejc4 div {
+  bottom: -80px;
+  left: 0;
+}
+
+#ejc5:before {
+    z-index: 1;
+    border: 1px solid rgba(179, 179, 179, 0.2);
+    width: 300px;
+    height: 300px;
+    left: 0;
+    top: 0;
+}
+#ejc5:after {
+    z-index: 2;
+    background-image: url(https://cdnw.nickpic.host/x6glDO.png);
+    top: 20px;
+    left: 165px;
+    width: 150px;
+    height: 150px;
+}
+#ejc5 div {
+  transform: rotate(0deg);
+  bottom: 0;
+  left: 120px;
+}
+
+emword {
+  display: block;
+  margin-left: 47px;
+  min-height: 100px;
+  position: relative;
+  z-index: 4;
+}
