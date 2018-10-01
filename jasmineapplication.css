@@ -1,0 +1,36 @@
+@font-face { font-family: "philosophy";
+   src: url('https://files.jcink.net/uploads/flickers/philosophy.ttf');
+}
+.jt-tri {width: 309px; height: 113px; padding: 10px 0px;}
+.jazztitle {
+  width: 309px;
+  padding-left: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+  position: relative;
+  z-index: 2;
+  font: 50px philosophy;
+  color: #72938F;
+  text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+  background: #000;
+  background-size: cover;
+  background-position: center;
+}
+.jazzdef {
+  width: 250px;
+  margin: 0 auto;
+  background: #72938F;
+  color: #000;
+  padding: 10px;
+  font: 8px arial;
+  letter-spacing: 0px;
+  text-transform: uppercase;
+  box-sizing: border-box;
+  position: relative;
+  z-index: 2;
+}
+#jt1 .jazztitle {background-image: url(https://cdnw.nickpic.host/xXFFXp.png);}
+#jt2 .jazztitle {background-image: url(https://cdnw.nickpic.host/xXFlvA.png);}
+#jt3 .jazztitle {background-image: url(https://cdnw.nickpic.host/xXF5OG.png);}
+#jt4 .jazztitle {background-image: url(https://cdnw.nickpic.host/xXFcyc.png);}
+#jt5 .jazztitle {background-image: url(https://cdnw.nickpic.host/xXFqSW.png);}
